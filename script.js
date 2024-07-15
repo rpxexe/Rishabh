@@ -172,7 +172,7 @@ function locomotion(){
       smooth: true,
       lerp:0.03,
     });
-    new ResizeObserver(() => scroll.update()).observe(document.querySelector("#main"))
+    // new ResizeObserver(() => scroll.update()).observe(document.querySelector("#main"))
 
     // locoScroll.on("scroll", ScrollTrigger.update);
     // ScrollTrigger.scrollerProxy("#main", {
